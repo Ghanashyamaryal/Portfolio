@@ -63,7 +63,7 @@ const Contact = () => {
 
   return (
     <section className="text-gray-600 body-font">
-      <div className="px-3 py-5 mx-auto text-center md:mt-7 sm:mx-7 md:mx-12 lg:mx-32 xl:mx-56">
+      <div className="px-4 max-w-[1400px]  md:px-8 xl:px-4 py-5 mx-auto text-center md:mt-7 ">
         <div id="contact" className="flex flex-col text-center w-full mb-4">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-black">
             Get In Touch

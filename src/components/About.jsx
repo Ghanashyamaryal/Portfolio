@@ -6,7 +6,7 @@ import ProfileData from "../data/profile";
 const About = () => {
   return (
     <section className="body-font">
-      <div className="p-5 mt-3 mx-auto md:mt-5 md:mx-10 lg:mx-16">
+      <div className="px-4 max-w-[1400px] md:px-8 xl:px-4 py-5 mx-auto text-center md:mt-7">
         <div id="about" className="flex flex-col text-center w-full mb-3">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-black">
             About Me
@@ -20,7 +20,7 @@ const About = () => {
             Why hire me ?
           </p>
         </div>
-        <div className="mx-auto flex lg:flex-row flex-col items-center justify-center">
+        <div className="mx-auto flex lg:flex-row flex-col items-center">
           <div
             data-aos="zoom-in"
             data-aos-duration="1000"
@@ -33,7 +33,7 @@ const About = () => {
               src={AboutData.image}
             />
           </div>
-          <div className="lg:w-1/2 justify-center lg:p-5 xl:p-7 md:p-5 flex flex-col items-center text-justify">
+          <div className="lg:w-1/2 justify-center lg:pl-5 xl:pl-7 md:p-5 flex flex-col items-center text-center lg:text-left">
             {AboutData.description?.map((item, index) => (
               <p
                 key={index}
@@ -45,7 +45,6 @@ const About = () => {
                 {item}
               </p>
             ))}
-           
           </div>
         </div>
       </div>
